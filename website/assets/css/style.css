@@ -1,3 +1,23 @@
 body{
     background: #BDBDBD;
 }
+#form{
+    background-color: lightgray;
+    width: 70%;
+    margin-left: 200px;
+}
+#copyright{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.contact-parrafo{
+    font-size:x-large;
+}
+#staticEmail{
+    border: none !important;
+    outline: none !important;
+    padding: 8px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
