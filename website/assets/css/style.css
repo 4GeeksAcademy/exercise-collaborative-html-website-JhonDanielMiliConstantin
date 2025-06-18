@@ -1,3 +1,14 @@
+
+body{
+    background: #BDBDBD;
+}
+.card-title{
+    color: blue;
+}
+.card{
+    border: none;
+    border-radius: 0%;
+
 #form {
     background-color: rgb(243, 241, 241);
     padding: 1.5rem;
