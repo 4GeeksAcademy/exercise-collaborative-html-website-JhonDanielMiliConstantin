@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+.card-title{
+    color: blue;
+}
+.card{
+    border: none;
+    border-radius: 0%;
+}
