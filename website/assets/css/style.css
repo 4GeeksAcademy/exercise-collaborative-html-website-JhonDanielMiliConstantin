@@ -1,26 +1,13 @@
 
 body{
-    background: #BDBDBD;
+    background: white;
 }
 .card-title{
     color: blue;
 }
-.card{
-    border: none;
-    border-radius: 0%;
-
-#form {
-    background-color: rgb(243, 241, 241);
-    padding: 1.5rem;
-    margin: 0 auto;
-    max-width: 900px;
-    width: 100%;
-    border-radius: 2px;
-    box-sizing: border-box;
-}
 
 #copyright {
-   margin: 4rem auto 0 auto;
+    margin: 4rem auto 0 auto;
     max-width: 1350px;
     font-size: 0.9rem;
     text-align: left; 
@@ -35,10 +22,48 @@ body{
 }
 
 #staticEmail {
-    border: none !important;
-    outline: none !important;
-    padding: 8px;
-    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+    font-size: 14px;
+}
+
+#form {
+    background-color:rgb(232, 232, 232);  /* fondo claro como la segunda imagen */
+    padding: 1.5rem;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+#label1 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+button[type="submit"] {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
 }
